@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Deployed link
+
+Here is the production link of this project
+Open [https://paradox-intern-project.netlify.app/](https://paradox-intern-project.netlify.app/) to view it in your browser.
+
 In the project directory, you can run:
 
 ### `npm start`
