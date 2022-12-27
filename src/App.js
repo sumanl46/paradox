@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import Footer from "./Footer";
+import Nav from "./nav";
+import Features from "./sections/features";
+import PlayYoutubeVideo from "./sections/youtube";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<div className="relative w-screen h-screen bg-white">
+				<Nav />
+
+				{/* This will take the remaining height of container after subtracting the height of header */}
+				<div className="relative w-full h-[calc(100%-3.5rem)] mx-auto overflow-auto">
+					<div className="2xl:w-9/12 xl:w-9/12 lg:w-9/12 md:w-10/12 w-full mx-auto h-auto">
+						<main className="w-full h-auto">
+							<PlayYoutubeVideo />
+
+							{/* Features */}
+							<Features />
+						</main>
+
+						{/* Footer section */}
+						<Footer />
+					</div>
+				</div>
+			</div>
+		</>
+	);
 }
 
 export default App;

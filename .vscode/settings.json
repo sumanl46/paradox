@@ -1,0 +1,14 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.wordWrap": "on",
+	"editor.fontFamily": "Dank Mono, Apercu Mono, Fira Code, Consolas, 'Courier New', monospace",
+	"editor.fontSize": 16,
+	"window.zoomLevel": -1,
+	"editor.fontWeight": "100",
+	"editor.fontLigatures": true,
+	"editor.fontVariations": true,
+	"prettier.bracketSameLine": true,
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Palenight (Mild Contrast)",
+	"workbench.iconTheme": "Monokai Classic Icons"
+}
